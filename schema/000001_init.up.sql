@@ -28,7 +28,7 @@ CREATE TABLE todo_items
   done boolean not null default false
 );
 
-CREATE TABLE lists_item 
+CREATE TABLE lists_items 
 (
   id serial not null unique,
   item_id int references todo_items(id) on delete cascade not null,

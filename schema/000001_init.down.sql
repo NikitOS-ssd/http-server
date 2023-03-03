@@ -1,4 +1,4 @@
-DROP TABLE lists_item;
+DROP TABLE lists_items;
 
 DROP TABLE users_lists;
 
